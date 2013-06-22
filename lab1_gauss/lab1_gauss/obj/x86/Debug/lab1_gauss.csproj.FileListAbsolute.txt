@@ -1,0 +1,5 @@
+D:\src\numerical_methods_labs\lab1_gauss\lab1_gauss\bin\Debug\lab1_gauss.exe
+D:\src\numerical_methods_labs\lab1_gauss\lab1_gauss\bin\Debug\lab1_gauss.pdb
+D:\src\numerical_methods_labs\lab1_gauss\lab1_gauss\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\src\numerical_methods_labs\lab1_gauss\lab1_gauss\obj\x86\Debug\lab1_gauss.exe
+D:\src\numerical_methods_labs\lab1_gauss\lab1_gauss\obj\x86\Debug\lab1_gauss.pdb
