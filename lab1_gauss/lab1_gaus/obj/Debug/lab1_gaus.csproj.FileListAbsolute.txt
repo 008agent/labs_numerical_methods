@@ -1,0 +1,5 @@
+C:\Documents and Settings\s153335\Мои документы\Visual Studio 2008\Projects\lab1_gaus\lab1_gaus\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\s153335\Мои документы\Visual Studio 2008\Projects\lab1_gaus\lab1_gaus\bin\Debug\lab1_gaus.exe
+C:\Documents and Settings\s153335\Мои документы\Visual Studio 2008\Projects\lab1_gaus\lab1_gaus\bin\Debug\lab1_gaus.pdb
+C:\Documents and Settings\s153335\Мои документы\Visual Studio 2008\Projects\lab1_gaus\lab1_gaus\obj\Debug\lab1_gaus.exe
+C:\Documents and Settings\s153335\Мои документы\Visual Studio 2008\Projects\lab1_gaus\lab1_gaus\obj\Debug\lab1_gaus.pdb
