@@ -7,3 +7,12 @@ C:\src\numerical_methods_labs\lab2_splains\lab2_splains\obj\x86\Debug\GenerateRe
 C:\src\numerical_methods_labs\lab2_splains\lab2_splains\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\src\numerical_methods_labs\lab2_splains\lab2_splains\obj\x86\Debug\lab2_splains.exe
 C:\src\numerical_methods_labs\lab2_splains\lab2_splains\obj\x86\Debug\lab2_splains.pdb
+D:\src\numerical_methods_labs\lab2_splains\lab2_splains\obj\x86\Debug\lab2_splains.exe
+D:\src\numerical_methods_labs\lab2_splains\lab2_splains\obj\x86\Debug\lab2_splains.pdb
+D:\src\numerical_methods_labs\lab2_splains\lab2_splains\bin\Debug\lab2_splains.exe
+D:\src\numerical_methods_labs\lab2_splains\lab2_splains\bin\Debug\lab2_splains.pdb
+D:\src\numerical_methods_labs\lab2_splains\lab2_splains\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\src\numerical_methods_labs\lab2_splains\lab2_splains\obj\x86\Debug\lab2_splains.f_main.resources
+D:\src\numerical_methods_labs\lab2_splains\lab2_splains\obj\x86\Debug\lab2_splains.Properties.Resources.resources
+D:\src\numerical_methods_labs\lab2_splains\lab2_splains\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\src\numerical_methods_labs\lab2_splains\lab2_splains\obj\x86\Debug\GenerateResource.write.1.tlog

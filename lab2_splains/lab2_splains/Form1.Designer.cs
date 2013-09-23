@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.p_main = new System.Windows.Forms.Panel();
+            this.p_paint = new System.Windows.Forms.Panel();
             this.p_controls = new System.Windows.Forms.Panel();
             this.bDraw = new System.Windows.Forms.Button();
             this.bBuild = new System.Windows.Forms.Button();
@@ -36,7 +37,6 @@
             this.b_setN = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lErrors = new System.Windows.Forms.Label();
-            this.p_paint = new System.Windows.Forms.Panel();
             this.p_main.SuspendLayout();
             this.p_controls.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -49,8 +49,17 @@
             this.p_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.p_main.Location = new System.Drawing.Point(0, 0);
             this.p_main.Name = "p_main";
-            this.p_main.Size = new System.Drawing.Size(621, 392);
+            this.p_main.Size = new System.Drawing.Size(960, 580);
             this.p_main.TabIndex = 0;
+            // 
+            // p_paint
+            // 
+            this.p_paint.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.p_paint.Location = new System.Drawing.Point(0, 0);
+            this.p_paint.Name = "p_paint";
+            this.p_paint.Size = new System.Drawing.Size(810, 548);
+            this.p_paint.TabIndex = 0;
+            this.p_paint.Click += new System.EventHandler(this.p_paint_Click);
             // 
             // p_controls
             // 
@@ -60,9 +69,9 @@
             this.p_controls.Controls.Add(this.tbN);
             this.p_controls.Controls.Add(this.b_setN);
             this.p_controls.Dock = System.Windows.Forms.DockStyle.Right;
-            this.p_controls.Location = new System.Drawing.Point(478, 0);
+            this.p_controls.Location = new System.Drawing.Point(817, 0);
             this.p_controls.Name = "p_controls";
-            this.p_controls.Size = new System.Drawing.Size(143, 392);
+            this.p_controls.Size = new System.Drawing.Size(143, 580);
             this.p_controls.TabIndex = 1;
             // 
             // bDraw
@@ -109,9 +118,9 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.lErrors);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 367);
+            this.panel1.Location = new System.Drawing.Point(0, 555);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(478, 25);
+            this.panel1.Size = new System.Drawing.Size(817, 25);
             this.panel1.TabIndex = 2;
             // 
             // lErrors
@@ -124,25 +133,15 @@
             this.lErrors.Text = "here will be current error";
             this.lErrors.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // p_paint
-            // 
-            this.p_paint.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.p_paint.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.p_paint.Location = new System.Drawing.Point(0, 0);
-            this.p_paint.Name = "p_paint";
-            this.p_paint.Size = new System.Drawing.Size(619, 390);
-            this.p_paint.TabIndex = 0;
-            this.p_paint.Click += new System.EventHandler(this.p_paint_Click);
-            // 
             // f_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(621, 392);
+            this.ClientSize = new System.Drawing.Size(960, 580);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.p_controls);
             this.Controls.Add(this.p_main);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "f_main";
             this.Text = "f_main";
             this.Load += new System.EventHandler(this.f_main_Load);

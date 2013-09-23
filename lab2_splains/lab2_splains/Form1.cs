@@ -53,8 +53,9 @@ namespace lab2_splains
         {
             try
             {
-                Painter.fill_pictureBox(p_paint, Color.Red /*globals.fillColor*/);
-                Painter.draw_grid(p_paint, 10, globals.gridColor);
+                Painter.fill_pictureBox(ref p_paint, globals.fillColor);
+                Painter.draw_grid(ref p_paint, 25, globals.gridColor);
+                Painter.draw_graph(ref p_paint, 25, Color.Red);
             }
             catch (Exception E)
             {
